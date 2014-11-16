@@ -7,7 +7,7 @@ class: center, middle, inverse
 class: center, middle, inverse
 
 # Protocols are evil
-.center[<img src="/images/Barbed.png" alt="Styfle" style="width: 700px;"/>]
+.center[<img src="/images/Barbed.png" alt="Stifle" style="width: 700px;"/>]
 <!-- ![Barbed](/images/Barbed.png)
  -->
  # Stifle Development

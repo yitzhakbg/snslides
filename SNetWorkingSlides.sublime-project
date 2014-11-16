@@ -1,0 +1,41 @@
+{
+		"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/tank/Users/ybg/Projects/SNetworking/snslides"
+		}
+	],
+	"build_systems":
+	[
+		{
+			"linux":
+			{
+				"cmd":
+				[
+					"/usr/bin/google-chrome",
+					"$project_path/index.html"
+				]
+			},
+			"name": "Browser",
+			"osx":
+			{
+				"cmd":
+				[
+					"open",
+					"$project_path/index.html"
+				]
+			},
+			"windows":
+			{
+				"cmd":
+				[
+					"cmd",
+					"/c",
+					"start",
+					"$project_path/index.html"
+				]
+			}
+		}
+	]
+}
