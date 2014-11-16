@@ -1,5 +1,6 @@
-class: center, middle, inverse
-# The Road to Software ![Defined](images/Defined.png) Networks
+class: center, middle
+# The Road to
+# Software ![Defined](images/Defined.png) Networks
 
 ---
 
