@@ -1,0 +1,1015 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html class="js" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="alternate" type="application/rss+xml" title="CCR Papers from July 2014" href="http://www.sigcomm.org/ccr/feed/2014/July">
+<link rel="shortcut icon" href="http://www.sigcomm.org/sites/default/files/garland_favicon.png" type="image/x-icon">
+    <title>CCR Papers from July 2014 | acm sigcomm</title>
+    <link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/content-module.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/ckeditor.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/date.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/datepicker.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/jquery.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/node.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/defaults.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/system.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/system-menus.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/user.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/farbtastic.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/calendar.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/views.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/style.css">
+<link type="text/css" rel="stylesheet" media="all" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/nspring.css">
+<link type="text/css" rel="stylesheet" media="print" href="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/print.css">
+    <script src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/ga.js" async="" type="text/javascript"></script><script src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/widgets.js" id="twitter-wjs"></script><script type="text/javascript" src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/jquery.js"></script>
+<script type="text/javascript" src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/drupal.js"></script>
+<script type="text/javascript" src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/googleanalytics.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" } });
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/garland/fix-ie.css" />    <![endif]-->
+  <script>try {  for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){    var lastpass_f = document.forms[lastpass_iter];    if(typeof(lastpass_f.lpsubmitorig)=="undefined"){      if (typeof(lastpass_f.submit) == "function") {        lastpass_f.lpsubmitorig = lastpass_f.submit;        lastpass_f.submit = function(){          var form = this;          try {            if (document.documentElement && 'createEvent' in document)            {              var forms = document.getElementsByTagName('form');              for (var i=0 ; i<forms.length ; ++i)                if (forms[i]==form)                {                  var element = document.createElement('lpformsubmitdataelement');                  element.setAttribute('formnum',i);                  element.setAttribute('from','submithook');                  document.documentElement.appendChild(element);                  var evt = document.createEvent('Events');                  evt.initEvent('lpformsubmit',true,false);                  element.dispatchEvent(evt);                  break;                }            }          } catch (e) {}          try {            form.lpsubmitorig();          } catch (e) {}        }      }    }  }} catch (e) {}</script><script src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/autoscroll.js" type="text/javascript"></script></head>
+  <body class="sidebar-left">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="http://www.sigcomm.org/" title="acm sigcomm"><img src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/garland_logo.png" alt="acm sigcomm" id="logo"><span>acm sigcomm</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-495 first"><a href="http://www.sigcomm.org/about" title="About">About</a></li>
+<li class="menu-517"><a href="http://www.sigcomm.org/awards" title="Awards">Awards</a></li>
+<li class="menu-531"><a href="http://www.sigcomm.org/join" title="Become a Member of SIGCOMM">Join</a></li>
+<li class="menu-596"><a href="http://www.sigcomm.org/news">News</a></li>
+<li class="menu-479"><a href="http://www.sigcomm.org/events" title="SIGCOMM-Sponsored Events">Events</a></li>
+<li class="menu-481 last"><a href="http://www.sigcomm.org/publications" title="SIGCOMM Publications">Publications</a></li>
+</ul>                <div style="clear: right;"></div>
+        <div class="ns-role-heading"><span class="ns-role-heading-header">Information for:</span>
+                  <ul class="links secondary-links"><li class="menu-493 first"><a href="http://www.sigcomm.org/for-authors" title="Information for Authors">Authors</a></li>
+<li class="menu-600"><a href="http://www.sigcomm.org/for-educators" title="Resources For Educators">Educators</a></li>
+<li class="menu-478"><a href="http://www.sigcomm.org/resources" title="Resources for researchers">Researchers</a></li>
+<li class="menu-599"><a href="http://www.sigcomm.org/for-conference-attendees" title="For Conference Attendees">Conference Attendees</a></li>
+<li class="menu-396 last"><a href="http://www.sigcomm.org/for-organizers" title="Information for Conference Organizers">Conference Organizers</a></li>
+</ul>                </div>
+
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <!-- <div class="block block-theme"><form action="/ccr/papers/2014/July"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="Search" class="form-text NormalTextBox txtSearch" onfocus="if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}" onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}" />
+</div>
+<input type="image" name="op" value="Search" id="edit-submit-1"  class="form-submit" src="/sites/all/themes/garland/images/search.jpg" />
+<input type="hidden" name="form_build_id" id="form-b1a16b02e5246c05ac1d6e62b6720c7b" value="form-b1a16b02e5246c05ac1d6e62b6720c7b"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div> --> 
+          <div id="block-block-3" class="clear-block block block-block">
+
+
+  <div class="content"><p>
+	<a href="http://www.sigcomm.org/publications/computer-communication-review"><img alt="" src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/ccr-75x375-sketch.png" height="61" width="200"></a></p>
+<p>
+	<a href="http://conferences.sigcomm.org/sigcomm/2015/" target="_blank"><img alt="" src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/sigcomm2015-b.png" height="87" width="210"></a></p>
+<p>
+	<a href="http://conferences.sigcomm.org/sigcomm/2014/" target="_blank"><img alt="" src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/logo.png" height="105" width="197"></a></p>
+</div>
+</div>
+<div id="block-block-2" class="clear-block block block-block">
+
+
+  <div class="content"><p><a class="twitter-timeline" href="https://twitter.com/ACMSIGCOMM" data-widget-id="357925757030391808">Tweets by @ACMSIGCOMM</a></p>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+  <h2>User login</h2>
+
+  <div class="content"><form action="/ccr/papers/2014/July?destination=ccr%2Fpapers%2F2014%2FJuly" accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center;" maxlength="60" name="name" id="edit-name" size="15" class="form-text required" type="text">
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-position: right center;" name="pass" id="edit-pass" maxlength="60" size="15" class="form-text required" type="password">
+</div>
+<input name="op" id="edit-submit" value="Log in" class="form-submit" type="submit">
+<div class="item-list"><ul><li class="first last"><a href="http://www.sigcomm.org/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input name="form_build_id" id="form-1b9dfcbd58959c00920cea943e2034c3" value="form-1b9dfcbd58959c00920cea943e2034c3" type="hidden">
+<input name="form_id" id="edit-user-login-block" value="user_login_block" type="hidden">
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="http://www.sigcomm.org/ccr/papers">Computer Communication Review: Papers</a> › <a href="http://www.sigcomm.org/ccr/papers/2014">CCR Papers from 2014</a></div>          <div class="searchcrumb"><form action="/ccr/papers/2014/July" accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <input maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="Search" class="form-text NormalTextBox txtSearch" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}" type="text">
+</div>
+<input name="op" value="Search" id="edit-submit-1" class="form-submit" src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/search.jpg" type="image">
+<input name="form_build_id" id="form-b1a16b02e5246c05ac1d6e62b6720c7b" value="form-b1a16b02e5246c05ac1d6e62b6720c7b" type="hidden">
+<input name="form_id" id="edit-search-theme-form" value="search_theme_form" type="hidden">
+</div>
+
+</div></form>
+</div>                              <h2>CCR Papers from July 2014</h2>                                                  <div class="clear-block">
+            <div class="view view-CCR-Papers view-id-CCR_Papers view-display-id-page_1 view-dom-id-1">
+        <div class="view-header">
+      <div style="float: right; width: 150px; margin: 10px; background-color: #efefef;"><div style="font-weight: bold; background-color: #cfcfcf; padding: 10px; border-bottom: 2px solid #8e1a27;">Find a CCR issue:</div><div style="padding: 10px"> 
+<ul class="menu"><li class="collapsed"><a href="http://www.sigcomm.org/ccr/papers/2007">2007</a></li>
+<li class="collapsed"><a href="http://www.sigcomm.org/ccr/papers/2008">2008</a></li>
+<li class="collapsed"><a href="http://www.sigcomm.org/ccr/papers/2009">2009</a></li>
+<li class="collapsed"><a href="http://www.sigcomm.org/ccr/papers/2010">2010</a></li>
+<li class="collapsed"><a href="http://www.sigcomm.org/ccr/papers/2011">2011</a></li>
+<li class="collapsed"><a href="http://www.sigcomm.org/ccr/papers/2012">2012</a></li>
+<li class="collapsed"><a href="http://www.sigcomm.org/ccr/papers/2013">2013</a></li>
+<li class="expanded">2014</li>
+<ul style="padding-left: 2em;"><li class="leaf"><a href="http://www.sigcomm.org/ccr/papers/2014/January">January</a></li><li class="leaf"><a href="http://www.sigcomm.org/ccr/papers/2014/April">April</a></li><li class="leaf">July</li><li class="leaf"><a href="http://www.sigcomm.org/ccr/papers/2014/August">August</a></li><li class="leaf"><a href="http://www.sigcomm.org/ccr/papers/2014/October">October</a></li>
+</ul>
+</ul></div>
+</div>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.frontmatter"><h3>July 2014: Editor Message</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">Dina Papagiannaki</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	Welcome to the July issue of CCR, an issue that should hopefully 
+inspire a number of discussions that we can continue in person during 
+Sigcomm, in Chicago. This issue features 17 papers, 5 of which are 
+editorial notes, and 12 technical contributions from our community. The 
+technical part features novel contributions in the area of router 
+location inference, performance of fiber-to-the-home networks, BGP, 
+programmable middleboxes, and a programming language for protocol 
+independent packet processors. Each one of them is advancing the state 
+of the art and should be a useful building block for future research. 
+The research community is increasingly becoming multidisciplinary. One 
+cannot help but get inspired when he/she sees the elegance of solutions 
+that address real problems in one discipline while exploiting knowledge 
+produced in another. This is the mission of the fifth technical 
+submission in this issue. The core of the contribution is to adopt the 
+concept of design contests and apply it to the area of congestion 
+control protocols in wireless networks. The authors point out that one 
+of the key requirements in any design contest is to “have an 
+unambigious, measurable objective that will allow one to compare 
+protocols”. And this is exactly what the authors do in their work. The 
+article concludes that design contests can benefit networking research, 
+if designed properly, and they encourage others to explore their 
+strengths and weaknesses. The remaining papers of the technical part are
+ devoted to one of the largest efforts undertaken in the recent years to
+ rethink the architecture of the Internet, e.g. the Future Internet 
+Architecture program of the U.S. National Science Foundation. FIA 
+targets the design of a trustworthy Internet, that incorporates 
+societal, economical, and legal constraints, while following a clean 
+slate approach. It was the initiative of Prof. David Wetherall, from 
+University of Washington, to bring the four FIA proposals, and 
+affiliated project ChoiceNet, to CCR, and provide a very comprehensive 
+exposition of the different avenues taken by the different consortia. I 
+have to thank David for acm all the hard work he did in order to bring 
+all the pieces in the same place, something that will undoubtedly help 
+our community understand the FIA efforts in a greater extent. The FIA 
+session is preceded by a technical note by Dr. Darleen Fisher, FIA 
+program director at the U.S. National Science Foundation. It is 
+inspiring to see how a long term (11-year) funding effort has led to a 
+number of functioning components that may define the Internet of the 
+future. Thank you Darleen for a wonderful introductory note! Our 
+editorial session comprises 5 papers. Two of the papers cover workshop 
+reports: i) the workshop on Internet Economics 2013, and ii) the 
+roundtable on real time communications research, that was held along 
+with IPTComm, in October 2013. We have an article introducing the 
+ProtoRINA prototype, a user-space prototype of the Recursive 
+InterNetwork Architecture (RINA), and a qualitative study of the 
+Internet census data that was collected in March 2013, and that has 
+attracted significant attention in our community. The last editorial is 
+appearing in CCR per my own invitation to its author, Daniel Stenberg. 
+By the end of this year the Internet Engineering Task Force (IETF) is 
+aiming to standardize the second version of HTTP, i.e. HTTP 2.0. This 
+new version is going to be a very significant change compared to HTTP v1
+ aiming to provide better support for mobile browsing. Daniel is a 
+Mozilla engineer participating in the standardization of HTTP 2.0 and 
+has kindly accepted to publish his thoughts on HTTP 2.0 at CCR. This 
+issue also marks the start of tenure for Dr. Aline Carneiro Viana, from 
+INRIA. Aline is bringing a lot of energy to the editorial board and her 
+expertise in ad hoc, sensor networks, delay tolerant networks, and 
+cognitive radio networks. With all that, I hope to see most of you in 
+Chicago in August, and please feel free to send me any suggestions on 
+things you would like to see published from CCR in the future.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-frontmatter.pdf">PDF (52 KB)</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/2656877.2656879"><h3>DRoP:DNS-based Router Positioning</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">B. Huffaker, M. Fomenkov, K. Claffy</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	In this paper we focus on geolocating Internet routers, using a 
+methodology for extracting and decoding geography-related strings from 
+fully qualified domain names (hostnames). We first compiled an extensive
+ dictionary associating geographic strings (e.g., airport codes) with 
+geophysical locations. We then searched a large set of router hostnames 
+for these strings, assuming each autonomous naming domain uses 
+geographic hints consistently within that domain. We used topology and 
+performance data continually collected by our global measurement 
+infrastructure to discern whether a given hint appears to co-locate 
+different hostnames in which it is found. Finally, we generalized 
+geolocation hints into domain-specific rule sets. We generated a total 
+of 1,711 rules covering 1,398 different domains and validated them using
+ domain-specific ground truth we gathered for six domains. Unlike 
+previous efforts which relied on labor-intensive domain-specific manual 
+analysis, we automate our process for inferring the domain specific 
+heuristics, substantially advancing the state-of-the-art of methods for 
+geolocating Internet resources.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000000.pdf">PDF (795 KB)</a></span>
+  </div>
+  
+  <div class="views-field-field-public-review-by-value">
+          <label class="views-label-field-public-review-by-value">
+        Public Review By:
+      </label>
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/2656877.2656879">Joel Sommers</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000001"><h3>Spurious routes in public BGP data</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">M. Luckie</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	Researchers depend on public BGP data to understand the structure and 
+evolution of the AS topology, as well as the operational security and 
+resiliency of BGP. BGP data is provided voluntarily by network operators
+ who establish BGP sessions with route collectors that record this data.
+ In this paper, we show how trivial it is for a single vantage point 
+(VP) to introduce thousands of spurious routes into the collection by 
+providing examples of ﬁve VPs that did so. We explore the impact these 
+misbehaving VPs had on AS relationship inference, showing these 
+misbehaving VPs introduced thousands of AS links that did not exist, and
+ caused relationship inferences for links that did exist to be 
+corrupted. We evaluate methods to automatically identify misbehaving 
+VPs, although we ﬁnd the result unsatisfying because the limitations of 
+real-world BGP practices and AS relationship inference algorithms 
+produce signatures similar to those created by misbehaving VPs. The most
+ recent misbehaving VP we discovered added thousands of spurious routes 
+for nine consecutive months until 8 November 2012. This misbehaving VP 
+barely impacts (0.1%) our validation of our AS relationship inferences, 
+but this number may be misleading since most of our validation data 
+relies on BGP and RPSL which validates only existing links, rather than 
+asserting the non-existence of links. We have only a few assertions of 
+non-existent routes, all received via our public-facing website that 
+allows operators to provide validation data through our interactive 
+feedback mechanism. We only discovered this misbehavior because two 
+independent operators corrected some inferences, and we noticed that the
+ spurious routes all came from the same VP. This event highlights the 
+limitations of even the best available topology data, and provides 
+additional evidence that comprehensive ground truth validation from 
+operators is essential to scientific research on Internet topology.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000001.pdf">PDF (779 KB)</a></span>
+  </div>
+  
+  <div class="views-field-field-public-review-by-value">
+          <label class="views-label-field-public-review-by-value">
+        Public Review By:
+      </label>
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000001">Renata Teixeira</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000002"><h3>Performance Within A Fiber-To-The-Home Network</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">M. Sargent, M. Allman</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	Fiber-To-The-Home (FTTH) networks are on the brink of bringing 
+significantly higher capacity to residential users compared to today'ss 
+commercial residential options. There are several burgeoning FTTH 
+networks that provide capacities of up to 1 Gbps. We have been 
+monitoring one such operational network the Case Connection Zone - for 
+23 months. In this paper we seek to understand the extent to which the 
+users in this network are in fact making use of the provided 
+bi-directional 1 Gbps capacity. We find that even when given virtually 
+unlimited capacity the majority of the time users do not retrieve 
+information from the Internet in excess of commercially available data 
+rates and transmit at only modestly higher rates than commodity networks
+ support. Further, we find that end host issues - most prominently 
+buffering at both end points - are often the cause of the 
+lower-than-expected performance.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000002.pdf">PDF (891 KB)</a></span>
+  </div>
+  
+  <div class="views-field-field-public-review-by-value">
+          <label class="views-label-field-public-review-by-value">
+        Public Review By:
+      </label>
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000002">Fabián E. Bustamante</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000003"><h3>Rapid and Scalable ISP Service Delivery through a Programmable MiddleBox</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">K. Khan, Z. Ahmed, S. Ahmed, A. Syed, S. Khayam</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	With only access billing no longer ensuring profits, an ISP's growth 
+now relies on rolling out new and differentiated services. However, ISPs
+ currently do not have a well-defined architecture for rapid, 
+cost-effective, and scalable dissemination of new services. We present 
+iSDF, a new SDN-enabled framework that can meet an ISP's service 
+delivery constraints concerning cost, scalability, deployment 
+flexibility, and operational ease. We show that meeting these 
+constraints necessitates an SDN philosophy for a centralized management 
+plane, a decoupled (from data) control plane, and a programmable data 
+plane at customer premises. We present an ISP service delivery framework
+ (iSDF) that provides ISPs a domain-specific API for network function 
+virtualization by leveraging a programmable middlebox built from 
+commodity home-routers. It also includes an application server to 
+disseminate, configure, and update ISP services. We develop and report 
+results for three diverse ISP applications that demonstrate the 
+practicality and flexibility of iSDF, namely distributed VPN (control 
+plane decisions), pay-per-site (rapid deployment), and BitTorrent 
+blocking (data plane processing).</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000003.pdf">PDF (1.2 MB)</a></span>
+  </div>
+  
+  <div class="views-field-field-public-review-by-value">
+          <label class="views-label-field-public-review-by-value">
+        Public Review By:
+      </label>
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000003">Katerina Argyraki</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000005"><h3>Protocol Design Contests</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">A. Sivaraman, K. Winstein, P. Varley, J. Batalha, A. Goyal, S. Das, J. Ma, H. Balakrishnan</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	In fields like data mining and natural language processing, design 
+contests have been successfully used to advance the state of the art. 
+Such contests offer an opportunity to bring the excitement and 
+challenges of protocol design - one of the core intellectual elements of
+ research and practice in networked systems - to a broader group of 
+potential contributors, whose ideas may prove important. Moreover, it 
+may lead to an increase in the number of students, especially 
+undergraduates or those learning via online courses, interested in 
+pursuing a career in the field. We describe the creation of the 
+infrastructure and our experience with a protocol design contest 
+conducted in MIT's graduate Computer Networks class. This contest 
+involved the design and evaluation of a congestion-control protocol for 
+paths traversing cellular wireless networks. One key to the success of a
+ design contest is an unambiguous, measurable objective to compare 
+protocols. In practice, protocol design is the art of trading off 
+conflicting goals with each other, but in this contest, we specified 
+that the goal was to maximize log(throughput/delay). This goal is a good
+ match for applications such as video streaming or videoconferencing 
+that care about high throughput and low interactive delays. Some 
+students produced protocols whose performance was better than published 
+protocols tackling similar goals. Furthermore, the convex hull of the 
+set of all student protocols traced out a tradeoff curve in the 
+throughput-delay space, providing useful insights into the entire space 
+of possible protocols. We found that student protocols diverged in 
+performance between the training and testing traces, indicating that 
+some students had overtrained ("overfitted") their protocols to the 
+training trace. Our conclusion is that, if designed properly, such 
+contests could benefit networking research by making new proposals more 
+easily reproducible and amenable to such "gamification," improve 
+networked systems, and provide an avenue for outreach.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000005.pdf">PDF (1.4 MB)</a></span>
+  </div>
+  
+  <div class="views-field-field-public-review-by-value">
+          <label class="views-label-field-public-review-by-value">
+        Public Review By:
+      </label>
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000005">Augustin Chaintreau</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000007"><h3>A Look Behind the Future Internet Architectures Efforts</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">Darleen Fisher</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	The Future Internet Architectures (FIA) constitutes a 10year effort by 
+the U.S. National Science Foundation (NSF) that was launched in 2006, 
+with the announcement of the Future INternet Design (FIND) research area
+ within a Network Technologies and Systems (NeTS) program solicitation. 
+This solicitation outlined a three-phase program to "rethink" the 
+Internet, beginning with FIND and culminating in the recently announced 
+two-year awards for Future Internet ArchitectureNext Phase (FIA-NP). 
+Because many readers may not be familiar with the thinking behind this 
+effort, this article aims to provide a historical context and background
+ for the technical papers included in this issue.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000007.pdf">PDF (668 KB)</a></span>
+  </div>
+  
+  <div class="views-field-field-public-review-by-value">
+          <label class="views-label-field-public-review-by-value">
+        Public Review By:
+      </label>
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000007">David Wetherall</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000008"><h3>XIA: Architecting a more Trustworthy and Evolvable Internet</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">D. Naylor, M. Mukerjee, P. Agyapong, R. Grandl, R. Kang</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	Motivated by limitations in today's host-centric IP network, recent 
+studies have proposed clean-slate network architectures centered around 
+alternate first-class principals, such as content, services, or users. 
+However, much like the hostcentric IP design, elevating one principal 
+type above others hinders communication between other principals and 
+inhibits the network's capability to evolve. This paper presents the 
+eXpressive Internet Architecture (XIA), an architecture with native 
+support for multiple principals and the ability to evolve its 
+functionality to accommodate new, as yet unforeseen, principals over 
+time. We present the results of our ongoing research motivated by and 
+building on the XIA architecture, ranging from topics at the physical 
+level ("how fast can XIA go") up through to the user level.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000008.pdf">PDF (2.4 MB)</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000009"><h3>ChoiceNet: Toward an Economy Plane for the Internet</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">T. Wolf, J. Griffioen, K. Calvert, R. Dutta, G. Rouskas, I. Baldin, A. Nagurney</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	The Internet has been a key enabling technology for many new 
+distributed applications and services. However, the deployment of new 
+protocols and services in the Internet infrastructure itself has been 
+sluggish, especially where economic incentives for network providers are
+ unclear. In our work, we seek to develop an "economy plane" for the 
+Internet that enables network providers to offer new network-based 
+services (QoS, storage, etc.) for sale to customers. The explicit 
+connection between economic relationships and network services across 
+various time scales enables users to select among service alternatives. 
+The resulting competition among network service providers will lead to 
+overall better technological solutions and more competitive prices. In 
+this paper, we present the architectural aspects of our ChoiceNet 
+economy plane as well as some of the technological problems that need to
+ be addressed in a practical deployment.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000009.pdf">PDF (781 KB)</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-10 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000010"><h3>Named Data Networking</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">A. Afanasyev, J. Burke, L. Zhang, claffy, L. Wang, V. Jacobson, P. Crowley, C. Papadopoulos, B. Zhang</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	Named Data Networking (NDN) is one of five projects funded by the U.S. 
+National Science Foundation under its Future Internet Architecture 
+Program. NDN has its roots in an earlier project, Content-Centric 
+Networking (CCN), which Van Jacobson first publicly presented in 2006.1 
+The NDN project investigates Jacobson's proposed evolution from today's 
+host-centric network architecture (IP) to a data-centric network 
+architecture (NDN). This conceptually simple shift has far-reaching 
+implications for how we design, develop, deploy, and use networks and 
+applications. We describe the motivation and vision of this new 
+architecture, and its basic components and operations. We also provide a
+ snapshot of its current design, development status, and research 
+challenges. More information about the project, including prototype 
+implementations, publications, and annual reports, is available on 
+named-data.net.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000010.pdf">PDF (911 KB)</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-11 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000011"><h3>MobilityFirst: A Mobility-Centric and Trustworthy Internet Architecture</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">A. Venkataramani, J. Kurose, D. Raychaudhuri, K. Nagaraja, M. Mao, S. Banerjee</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	MobilityFirst is a future Internet architecture with mobility and 
+trustworthiness as central design goals. Mobility means that all 
+endpoints - devices, services, content, and networks - should be able to
+ frequently change network attachment points in a seamless manner. 
+Trustworthiness means that the network must be resilient to the presence
+ of a small number of malicious endpoints or network routers. 
+MobilityFirst enhances mobility by cleanly separating names or 
+identifiers from addresses or network locations, and enhances security 
+by representing both in an intrinsically verifiable manner, relying upon
+ a massively scalable, distributed, global name service to bind names 
+and addresses, and to facilitate services including device-to-service, 
+multicast, anycast, and context-aware communication, content retrieval, 
+and more. A key insight emerging from our experience is that a logically
+ centralized global name service can significantly enhance mobility and 
+security and transform network-layer functionality. Recognizing and 
+validating this insight is the key contribution of the MobilityFirst 
+architectural effort.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000011.pdf">PDF (2.0 MB)</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-12 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000012"><h3>A Brief Overview of the NEBULA Future Internet Architecture</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">T. Anderson, K. Birman, R. 
+Broberg, M. Caesar, D. Comer, C. Cotton, M. Freedman, A. Haeberlen, Z. 
+Ives, A. Krishnamurthy, W. Lehr, B. Loo, D. Mazières, A. Nicolosi, J. 
+Smith, I. Stoica, R. van Renesse, M. Walfish, H. Weatherspoon, C. Yoo</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	NEBULA is a proposal for a Future Internet Architecture. It is based on
+ the assumptions that: (1) cloud computing will comprise an increasing 
+fraction of the application workload offered to an Internet, and (2) 
+that access to cloud computing resources will demand new architectural 
+features from a network. Features that we have identified include 
+dependability, security, flexibility and extensibility, the entirety of 
+which constitute resilience. NEBULA provides resilient networking 
+services using ultrareliable routers, an extensible control plane and 
+use of multiple paths upon which arbitrary policies may be enforced. We 
+report on a prototype system, Zodiac, that incorporates these latter two
+ features.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000012.pdf">PDF (2.8 MB)</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-13 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000004"><h3>P4: Programming Protocol-Independent Packet Processors</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">P. Bosshart, D. Daly, G. Gibb, M. Izzard, N. McKeown, J. Rexford, C. Schlesinger, D. Talayco, A. Vahdat, G. Varghese, D. Walker</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	P4 is a high-level language for programming protocol-independent packet
+ processors. P4 works in conjunction with SDN control protocols like 
+OpenFlow. In its current form, OpenFlow explicitly specifies protocol 
+headers on which it operates. This set has grown from 12 to 41 fields in
+ a few years, increasing the complexity of the specification while still
+ not providing the flexibility to add new headers. In this paper we 
+propose P4 as a strawman proposal for how OpenFlow should evolve in the 
+future. We have three goals: (1) Reconfigurability in the field: 
+Programmers should be able to change the way switches process packets 
+once they are deployed. (2) Protocol independence: Switches should not 
+be tied to any specific network protocols. (3) Target independence: 
+Programmers should be able to describe packet processing functionality 
+independently of the specifics of the underlying hardware. As an 
+example, we describe how to use P4 to configure a switch to add a new 
+hierarchical label.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000004.pdf">PDF (1.3 MB)</a></span>
+  </div>
+  
+  <div class="views-field-field-public-review-by-value">
+          <label class="views-label-field-public-review-by-value">
+        Public Review By:
+      </label>
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000004">Marco Mellia</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-14 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000006"><h3>Mobile Offloading in Wireless Ad Hoc Networks: The Tightness Strategy</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">G. Kalejaiye, J. Rondina, L. Albuquerque, T. Pereira, L. Campos, R. Melo, D. Mascarenhas, M. Carvalho</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	This paper describes a strategy that was designed, implemented, and 
+presented at the Mobile Ad Hoc Networking Interoperability and 
+Cooperation (MANIAC) Challenge 2013. The theme of the challenge was 
+"Mobile Data Offloading" and consisted on developing and comparatively 
+evaluating strategies to offload infrastructure access points via 
+customer ad hoc forwarding using handheld devices. According to the 
+challenge rules, a hop-by-hop bidding contest should decide the path of 
+each data packet towards its destination. Consequently, each team should
+ rely on other teams' willingness to forward packets for them in order 
+to get their traffic across the network. Following these rules, this 
+paper proposes a strategy that is based on the concept of how "tight" a 
+node is to successfully deliver a packet to its destination within a 
+given deadline. This "tightness" idea relies on a shortest-path analysis
+ of the underlying network graph, and it is used to define three 
+sub-strategies that specify a) how to participate in an auction; b) how 
+to announce an auction; and c) how to decide who wins the announced 
+auction. The proposed strategy seeks to minimize network resource 
+utilization and to promote cooperative behavior among participant nodes.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000006.pdf">PDF (941 KB)</a></span>
+  </div>
+  
+  <div class="views-field-field-public-review-by-value">
+          <label class="views-label-field-public-review-by-value">
+        Public Review By:
+      </label>
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000006">Sanjay Jha</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-15 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000013"><h3>An Internet census taken by an illegal botnet - A qualitative assessment of published measurements</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">T. Krenc, O. Hohlfeld, A. Feldmann</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	On March 17, 2013, an Internet census data set and an accompanying 
+report were released by an anonymous author or group of authors. It 
+created an immediate media buzz, mainly because of the unorthodox and 
+unethical data collection methodology (i.e., exploiting default 
+passwords to form the Carna botnet), but also because of the alleged 
+unprecedented large scale of this census (even though legitimate census 
+studies of similar and even larger sizes have been performed in the 
+past). Given the unknown source of this released data set, little is 
+known about it. For example, can it be ruled out that the data is faked?
+ Or if it is indeed real, what is the quality of the released data? The 
+purpose of this paper is to shed light on these and related questions 
+and put the contributions of this anonymous Internet census study into 
+perspective. Indeed, our findings suggest that the released data set is 
+real and not faked, but that the measurements suffer from a number of 
+methodological flaws and also lack adequate meta-data information. As a 
+result, we have not been able to verify several claims that the 
+anonymous author(s) made in the published report. In the process, we use
+ this study as an educational example for illustrating how to deal with a
+ large data set of unknown quality, hint at pitfalls in Internet-scale 
+measurement studies, and discuss ethical considerations concerning 
+third-party use of this released data set for publications.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000013.pdf">PDF (889 KB)</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-16 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000014"><h3>Real-Time Communications - Topics for Research and Methods of Collaboration</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">C. Davids, G. Ormazabal, R. State</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	In this article we describe the discussion and conclusions of the 
+"Roundtable on Real-Time Communications Research: What to Study and How 
+to Collaborate" held at the Illinois Institute of Technology's Real-Time
+ Communications Conference and Expo, co-located with the IPTComm 
+Conference, October 15-17, 2013.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000014.pdf">PDF (738 KB)</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-17 views-row-odd">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000016"><h3>Workshop on Internet Economics (WIE2013) report</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">kc claffy, D. Clark</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	On December 12-13 2013, CAIDA and the Massachusetts Institute of 
+Technology (MIT) hosted the (invitation-only) 4th interdisciplinary 
+Workshop on Internet Economics (WIE) at the University of California's 
+San Diego Supercomputer Center. This workshop series provides a forum 
+for researchers, commercial Internet facilities and service providers, 
+technologists, economists, theorists, policy makers, and other 
+stakeholders to inform current and emerging regulatory and policy 
+debates. The theme for this year's workshop was the economic health of 
+the Internet ecosystem, including emphasis on the cost of and revenue 
+sources to support content delivery, the quality of user experience, 
+economic and policy influences on and effects of emerging specialized 
+services, and the role of data in evaluating ecosystem health. This 
+report describes the discussions and presents relevant open research 
+questions identified by participants. Slides presented at the workshop 
+and a copy of this final report are available at <a href="http://www.caida.org/workshops/wie/1312/" title="http://www.caida.org/workshops/wie/1312/">http://www.caida.org/workshops/wie/1312/</a>.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000016.pdf">PDF (566 KB)</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-18 views-row-even">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000017"><h3>HTTP2 Explained</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">D. Stenberg</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	A detailed description explaining the background and problems with 
+current HTTP that has lead to the development of the next generation 
+HTTP protocol: HTTP 2. It also describes and elaborates around the new 
+protocol design and functionality, including some implementation 
+specifics and a few words about the future. This article is an editorial
+ note submitted to CCR. It has NOT been peer reviewed. The author takes 
+full responsibility for this article's technical content. Comments can 
+be posted through CCR Online.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000017.pdf">PDF (4.4 MB)</a></span>
+  </div>
+</li>
+          <li class="views-row views-row-19 views-row-odd views-row-last">  
+  <div class="views-field-title">
+                <span class="field-content"><a href="http://www.sigcomm.org/ccr/papers/2014/July/0000000.0000015"><h3>Introducing ProtoRINA: A Prototype for Programming Recursive-Networking Policies</h3></a></span>
+  </div>
+  
+  <div class="views-field-field-publication-authors-value">
+          <label class="views-label-field-publication-authors-value">
+        By:
+      </label>
+                <span class="field-content">Y. Wang, I. Matta, F. Esposito, J. Day</span>
+  </div>
+  
+  <div class="views-field-body">
+                <div class="field-content"><p>
+	ProtoRINA is a user-space prototype of the Recursive InterNetwork 
+Architecture. RINA is a new architecture that builds on the fundamental 
+principle that networking is interprocess communication. As a 
+consequence, RINA overcomes inherent weaknesses of the current Internet,
+ e.g., security, mobility support, and manageability. ProtoRINA serves 
+not only as a prototype that demonstrates the advantages of RINA, but 
+also as a network experimental tool that enables users to program 
+different policies using its built-in mechanisms. In this note, we 
+introduce ProtoRINA as a vehicle for making RINA concepts concrete and 
+for encouraging researchers to use and benefit from the prototype.</p></div>
+  </div>
+  
+  <div class="views-field-field-link-value">
+          <label class="views-label-field-link-value">
+        Download:
+      </label>
+                <span class="field-content"><a class="content-link" href="http://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000015.pdf">PDF (803 KB)</a></span>
+  </div>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>           </div>
+          <a href="http://www.sigcomm.org/ccr/feed/2014/July" class="feed-icon"><img src="CCR%20Papers%20from%20July%202014%20%7C%20acm%20sigcomm_files/feed.png" alt="Syndicate content" title="CCR Papers from July 2014" height="16" width="16"></a>          <div id="footer"><div id="block-block-1" class="clear-block block block-block">
+
+
+  <div class="content"><p><a href="http://www.sigcomm.org/contact">Contact us</a> to send feedback about this page.</p>
+</div>
+</div>
+</div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-42763972-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+  
+
+</body></html>
