@@ -2,10 +2,11 @@ class: center, middle
 # The Road to
 # Software ![Defined](images/Defined.png) Networks
 ---
-class: center, top, inverse
+class: left, top
 background-image: url(images/stuck.png)
 
-#**Internet non-programmable**
+.large.white[##**Internet non-programmable**
+]
 ---
 class: center, top, inverse
 name: Challenges
@@ -29,34 +30,26 @@ name: Evil Protocols
 .center[<img src="images/Barbed.png" alt="Stifle" style="width: 700px;"/>]
  # Stifle Development
 ---
-class: center, middle, inverse
 name: Clean Slate vs.
-#**Clean State vs. Evolutionary**
-
-.pull-right[![clean state vs](images/clean_slate_vs1.png)]
-.left.large.white[
-####Winner Takes All
-####Expensive
-####Don't run parallel
-####Not programmable
+.right-column[![clean state vs](images/clean_slate_vs2.png)]
+.left-column[
+## Clean Slate
+###One winner?
+###Run parallel?
+###Programmable?
+###[The Mad Rush](sites/CCR Papers from July 2014 | acm sigcomm.html)
 ]
-<!-- #[The Mad Rush](http://www.sigcomm.org/ccr/papers/2014/July) -->
-#[The Mad Rush](sites/CCR Papers from July 2014 | acm sigcomm.html)
 ---
 
-name: Solution - Ignore the Internet
-class: center, middle, inverse
-.large[
-
-.left.white[
-###Don't compete with the Internet
-
-###Don't fix the Internet
-### Take the Orthogonal view
+name: Ignore the Internet
+class: left, top
+#Clean Slate or Evolution?
+##Don't fix the Internet and don't compete with it
+##Take the Orthogonal view
+.large.red.center[# **Ignore it!**
 ]
-
-#**Ignore it!**]
 ---
+
 name: View from the outside
 class: center, middle, inverse
 #View the Internet from the **Outside**
@@ -66,31 +59,110 @@ class: center, middle, inverse
 ##PC revolution encompassed computing from the outside
 ]
 ---
-class: center, middle, inverse
-name: Cooperative effort
-International governmental, academic, industrial cooperative effort
-But...
-Opens the floodgates
-**Much** less costly than the alternatives 
----
-class: center, middle, inverse
-name: Roadmap
-- Merge switching functionality into devices
-- Multiplex regimes over the same infrastructure
-- Kickstart popularization and availibility with DSLs
----
-class: center, middle, inverse
-name: Software mindset
-#Software mindset is different
-No need to anticipate
 
-class: center, middle, inverse
+class: top, left
+name: Cooperative effort
+.left-column[##Cooperative effort
+#**Opens the floodgates**
+]
+.right-column.right[##between Government, academia, Industry
+<img src="images/floodgates.jpg" alt="floodgates" style="width: 500px;"/>
+.center[##**Much** less costly than the alternatives
+]
+]
+---
+
+class: top, left
+name: Roadmap
+- ##Merge switching functionality into devices
+- ##Multiplex regimes over the same infrastructure
+- ##Kickstart popularization and availibility with DSLs
+---
+
+class: top, left
+name: Run any regime
+.center[#**"_Running_" a regime**
+]
+##Same as running a program on a computer
+##Load the same code onto all the devices "running" the regime
+##No problem if the code is in lodable, user space memory
+---
+
+class: left, top
+name: Protocol Wall
+#**Protocol Wall**
+###The height above which freely programmable application code can be written
+###Above the Protocol Wall, protocols are no longer protocols
+###We use the term, _networking regime_
+---
+
+class: center, middle
+name: High Protocol Wall
+##**High Protocol Wall**
+
+.center[<img src="images/TCPIPStackHiWall1.png" alt="Protocol Bound" style="width: 800px;"/>]
+---
+
+class: center, middle
+name: Low Protocol Wall
+##**Low Protocol Wall**
+
+.center[<img src="images/TCPIPStackLoWall.png" alt="Protocol Bound" style="width: 800px;"/>]
+---
+
+class: center, middle
+name: Protocol Wall
+#**Protocol Wall Height**
+.center[<img src="images/Linux Kernel Map_lowered_wall.png" alt="Lowered Wall" style="width: 700px;"/>]
+---
+
+class: left, top
+name: Merging1
+##Merge switching and computing functionality
+##As many switches/computers as you like. It's all software
+<img src="images/SNDemo31.png" alt="Merged switches" style="width: 700px;"/>
+---
+
+class: center, middle
 name: Run them all together
 # All Regimes Flow in Parallel
+![Parallel Flow](images/parallelflow1.png)
 ---
-class: center, middle, inverse
-name: High Protocol Wall
-#**High Protocol Wall**
 
-.center[<img src="images/HiWall.png" alt="Protocol Bound" style="width: 800px;"/>]
+class: left, top
+name: Merging2
+#Run different regimes
+##By replacing software networking "stacks"
+<img src="images/SNDemo33.png" alt="Multiple regimes" style="width: 700px;"/>
 ---
+
+class: left, top
+name: Merging3
+##Multiplex over same infrastructure
+##By exposing multiple MAC addresses on same port
+<img src="images/SNDemo34.png" alt="Multiplex" style="width: 800px;"/>
+---
+
+class: left, middle, large
+name: Performance
+#Performance Disscussion
+---
+
+class: left, middle
+name: Software mindset
+#Software mindset is different
+##No need to anticipate problems and propose solutions
+#just code
+---
+
+class: left, top
+name: Pot of Gold
+.center[#Pot of Gold
+]
+.right-column[<img src="images/pot-of-gold.jpg" alt="Pot of Gold" style="width: 500px;"/>]
+##Inter-regime transfer
+##Pool unheard of processing resources
+##Distributed applications
+
+
+
