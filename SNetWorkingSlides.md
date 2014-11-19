@@ -126,7 +126,7 @@ name: Merging1
 class: center, middle
 name: Run them all together
 # All Regimes Flow in Parallel
-![Parallel Flow](images/parallelflow1.png)
+![Parallel Flow](images/ParallelFlow1.png)
 ---
 
 class: left, top
